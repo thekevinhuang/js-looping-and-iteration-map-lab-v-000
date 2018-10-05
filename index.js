@@ -9,6 +9,6 @@ function nameToAttributes(collection) {
   return newCollect
 }
 
-function attributesToPhrase() {
-  
+function attributesToPhrase(collection) {
+
 }
