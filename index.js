@@ -10,5 +10,6 @@ function nameToAttributes(collection) {
 }
 
 function attributesToPhrase(collection) {
-  
+  let newCollect = collection.map()
+  return newCollect
 }
