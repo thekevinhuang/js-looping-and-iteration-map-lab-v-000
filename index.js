@@ -5,5 +5,5 @@ function lowerCaseDrivers(collection) {
 }
 
 function nameToAttributes(collection) {
-
+  let newCollect = collection.map(function(individual) {return Object.assign({}, {firstName: individual.split()[0]}, {lastName:individual.split()[1]})})
 }
