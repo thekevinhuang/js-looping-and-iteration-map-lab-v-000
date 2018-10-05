@@ -5,5 +5,5 @@ function lowerCaseDrivers(collection) {
 }
 
 function nameToAttributes(collection) {
-  
+
 }
