@@ -10,5 +10,5 @@ function nameToAttributes(collection) {
 }
 
 function attributesToPhrase(collection) {
-
+  
 }
