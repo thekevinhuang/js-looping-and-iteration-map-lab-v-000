@@ -10,6 +10,6 @@ function nameToAttributes(collection) {
 }
 
 function attributesToPhrase(collection) {
-  let newCollect = collection.map()
+  let newCollect = collection.map(function(individual) {return `${individual.name} is from ${individual.hometown}`})
   return newCollect
 }
